@@ -1,7 +1,7 @@
 Plugin Builder Results
 
 Your plugin MyPlugin was created in:
-    C:/GISProjects\first_plugin
+    C:/GISProjects\qgis_plugin
 
 Your QGIS plugin directory is located at:
     C:/Users/David/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins

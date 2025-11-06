@@ -1,2 +1,5 @@
 # qgis_plugin
-Plugin for qgis, it allows to read a layer data
+QGIS plugin that allows you to read data from a layer.
+
+Data:
+https://download.geofabrik.de/north-america/us/california/socal-latest.osm.pbf
