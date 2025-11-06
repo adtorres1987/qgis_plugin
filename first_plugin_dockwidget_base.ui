@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyPluginDockWidgetBase</class>
+ <widget class="QDockWidget" name="MyPluginDockWidgetBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>My Plugin</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <widget class="QPushButton" name="btnLoadAttributes">
+      <property name="text">
+       <string>Load</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QTableWidget" name="tableWidget"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lblInfo">
+      <property name="text">
+       <string>Points</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
